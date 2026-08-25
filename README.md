@@ -15,16 +15,16 @@
 
 ## 📚 Month 1 Python Concepts Demonstrated
 
-| Concept | File / Module | Implementation Detail |
-| :--- | :--- | :--- |
-| **Data Types** | [`models.py`](finsights/models.py) | `int` (IDs), `float` (amounts), `str` (descriptions), `bool` (flags) |
-| **Tuples** | [`models.py`](finsights/models.py) | `TransactionMeta(tx_id, date, merchant)` immutable header |
-| **Lists** | [`data_cleaner.py`](finsights/services/data_cleaner.py) | Dynamic list storage for valid and rejected records |
-| **Sets** | [`data_cleaner.py`](finsights/services/data_cleaner.py) | `VALID_CATEGORIES` set lookup & unique merchant deduplication |
-| **Dictionaries** | [`analytics.py`](finsights/services/analytics.py) | Category spending aggregation map & metrics dict |
-| **File Handling** | [`repository.py`](finsights/repository.py) | `csv.DictReader` parsing, JSON saving, Markdown writing |
-| **Conditionals & Loops** | [`data_cleaner.py`](finsights/services/data_cleaner.py) | Record validation pipeline (`if/elif/else`) and `for` loops |
-| **NumPy Engine** | [`analytics.py`](finsights/services/analytics.py) | `np.sum`, `np.mean`, `np.median`, `np.std`, `np.percentile` |
+| Concept                  | File / Module                                           | Implementation Detail                                                |
+| :----------------------- | :------------------------------------------------------ | :------------------------------------------------------------------- |
+| **Data Types**           | [`models.py`](finsights/models.py)                      | `int` (IDs), `float` (amounts), `str` (descriptions), `bool` (flags) |
+| **Tuples**               | [`models.py`](finsights/models.py)                      | `TransactionMeta(tx_id, date, merchant)` immutable header            |
+| **Lists**                | [`data_cleaner.py`](finsights/services/data_cleaner.py) | Dynamic list storage for valid and rejected records                  |
+| **Sets**                 | [`data_cleaner.py`](finsights/services/data_cleaner.py) | `VALID_CATEGORIES` set lookup & unique merchant deduplication        |
+| **Dictionaries**         | [`analytics.py`](finsights/services/analytics.py)       | Category spending aggregation map & metrics dict                     |
+| **File Handling**        | [`repository.py`](finsights/repository.py)              | `csv.DictReader` parsing, JSON saving, Markdown writing              |
+| **Conditionals & Loops** | [`data_cleaner.py`](finsights/services/data_cleaner.py) | Record validation pipeline (`if/elif/else`) and `for` loops          |
+| **NumPy Engine**         | [`analytics.py`](finsights/services/analytics.py)       | `np.sum`, `np.mean`, `np.median`, `np.std`, `np.percentile`          |
 
 ---
 
@@ -77,10 +77,12 @@ zeravia-mini-project/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Python 3.10+
 - `numpy`
 
 ### Installation
+
 ```bash
 git clone https://github.com/AbhilashDash10082k4/FinSights.git
 cd FinSights
@@ -88,11 +90,13 @@ pip install numpy
 ```
 
 ### Running Application
+
 ```bash
 python main.py
 ```
 
 ### Running Unit Tests
+
 ```bash
 python -m unittest discover -s tests
 ```
@@ -105,6 +109,7 @@ python -m unittest discover -s tests
 # FinSights - Personal Finance Executive Summary
 
 ## Key Financial Metrics (NumPy Computed)
+
 - **Total Spend**: $1,694.10
 - **Average Transaction (Mean)**: $242.01
 - **Median Spend**: $85.20
@@ -114,16 +119,14 @@ python -m unittest discover -s tests
 - **Anomalies Detected**: 1
 
 ## Spending by Category (ASCII Chart)
-Groceries      | █████                          $355.60
-Utilities      | ██                             $177.60
-Electronics    | ██████████████████████████████ $1,200.00
-Transport      |█                               $80.00
-Dining         |█                               $68.40
-Health         |█                               $50.00
-Entertainment  |                                $15.99
+
+Groceries | █████ $355.60
+Utilities | ██ $177.60
+Electronics | ██████████████████████████████ $1,200.00
+Transport |█ $80.00
+Dining |█ $68.40
+Health |█ $50.00
+Entertainment | $15.99
 ```
 
 ---
-
-## 📄 License
-MIT License
