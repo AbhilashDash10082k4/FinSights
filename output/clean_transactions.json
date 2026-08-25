@@ -1,0 +1,82 @@
+[
+    {
+        "tx_id": "TX101",
+        "date": "2026-08-01",
+        "merchant": "Supermarket",
+        "category": "Groceries",
+        "amount": 145.5,
+        "is_flagged": false
+    },
+    {
+        "tx_id": "TX102",
+        "date": "2026-08-02",
+        "merchant": "PowerCorp",
+        "category": "Utilities",
+        "amount": 85.2,
+        "is_flagged": false
+    },
+    {
+        "tx_id": "TX104",
+        "date": "2026-08-05",
+        "merchant": "TechDepot",
+        "category": "Electronics",
+        "amount": 1200.0,
+        "is_flagged": false
+    },
+    {
+        "tx_id": "TX105",
+        "date": "2026-08-06",
+        "merchant": "MetroTransit",
+        "category": "Transport",
+        "amount": 35.0,
+        "is_flagged": false
+    },
+    {
+        "tx_id": "TX106",
+        "date": "2026-08-07",
+        "merchant": "GourmetBistro",
+        "category": "Dining",
+        "amount": 68.4,
+        "is_flagged": false
+    },
+    {
+        "tx_id": "TX107",
+        "date": "2026-08-10",
+        "merchant": "Supermarket",
+        "category": "Groceries",
+        "amount": 210.1,
+        "is_flagged": false
+    },
+    {
+        "tx_id": "TX108",
+        "date": "2026-08-12",
+        "merchant": "GymFitness",
+        "category": "Health",
+        "amount": 50.0,
+        "is_flagged": false
+    },
+    {
+        "tx_id": "TX109",
+        "date": "2026-08-15",
+        "merchant": "StreamFlix",
+        "category": "Entertainment",
+        "amount": 15.99,
+        "is_flagged": false
+    },
+    {
+        "tx_id": "TX110",
+        "date": "2026-08-18",
+        "merchant": "PowerCorp",
+        "category": "Utilities",
+        "amount": 92.4,
+        "is_flagged": false
+    },
+    {
+        "tx_id": "TX112",
+        "date": "2026-08-22",
+        "merchant": "GasStation",
+        "category": "Transport",
+        "amount": 45.0,
+        "is_flagged": false
+    }
+]
