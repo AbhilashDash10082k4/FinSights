@@ -1,0 +1,13 @@
+id,date,merchant,category,amount,is_flagged
+TX101,2026-08-01,Supermarket,Groceries,145.50,False
+TX102,2026-08-02,PowerCorp,Utilities,85.20,False
+TX103,2026-08-03,InvalidVendor,,0.00,True
+TX104,2026-08-05,TechDepot,Electronics,1200.00,False
+TX105,2026-08-06,MetroTransit,Transport,35.00,False
+TX106,2026-08-07,GourmetBistro,Dining,68.40,False
+TX107,2026-08-10,Supermarket,Groceries,210.10,False
+TX108,2026-08-12,GymFitness,Health,50.00,False
+TX109,2026-08-15,StreamFlix,Entertainment,15.99,False
+TX110,2026-08-18,PowerCorp,Utilities,92.40,False
+TX111,2026-08-20,Supermarket,Groceries,-10.00,True
+TX112,2026-08-22,GasStation,Transport,45.00,False
